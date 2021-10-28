@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/bootstrap-5.0.2-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="static/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="icon" href="static/images/logo.png" sizes="32x32" type="image/png">
+    <title>onePageProject</title>
+</head>
+<body class="body-section">
+
+    <div class="main-container container-fluid">
+        <nav class="navbar-custome navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><div class="logo-wrapper">
+                <img src="static/images/logo.png" alt="">
+              </div></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pictures</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Videos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      See More
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                      <li><a class="dropdown-item" href="#">Gallery</a></li>
+                      <li><a class="dropdown-item" href="#">Upcoming Events</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <section class="welcomingText">
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container text-header-container">
+                <h1 class="display-4">Welcome to Surfing World</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eveniet possimus ratione at? Id voluptatibus, distinctio ducimus.</p>
+              </div>
+            </div>
+          </section>
+          <section class="slider-section">
+            <div class="row">
+              <div class="col"></div>
+              <div class="col-md-6">
+                <div id="carouselController" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="img-holder-slider carousel-item active">
+                      <img src="static/images/pexels-jess-loiterton-4318913.jpg" class="img-slider-correction d-block w-100" alt="...">
+                    </div>
+                    <div class="img-holder-slider carousel-item">
+                      <img src="static/images/pexels-apg-graphics-1606204.jpg" class="img-slider-correction d-block w-100" alt="...">
+                    </div>
+                    <div class="img-holder-slider carousel-item">
+                      <img src="static/images/pexels-emiliano-arano-1330217.jpg" class="img-slider-correction d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselController" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselController" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="col"></div>
+            </div>
+          </section>
+
+          <section class="gird-system-section">
+            <div class="row">
+              <div class="col-sm-12 col-md-1 offset-md-2">
+                <div class="img-holder-sidebar img-fluid">
+                  <img src="static/images/pexels-gaspar-zaldo-6737865.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="row">
+                  <p class="dummyText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum id harum dolor soluta unde. Voluptatem hic minus cumque optio fugit quam incidunt in culpa et at eveniet vitae deserunt quidem impedit, voluptates quas assumenda, repellendus dignissimos. In inventore quod veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim repellendus quisquam explicabo tenetur esse quod nostrum aspernatur rerum possimus laborum, vel tempore tempora perspiciatis minima.</p>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-md-9">
+                    <p class="dummyText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eaque sed quia! Culpa, laudantium! Magni blanditiis porro neque facilis sint, minus, accusantium esse omnis similique velit saepe ratione beatae eaque delectus commodi quam ea mollitia rerum quae voluptatibus, nemo fugiat autem! Quos fugiat animi error molestias quia, minus voluptatum dolorum?</p>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="img-holder-small img-fluid">
+                      <img src="static/images/pexels-ray-bilcliff-1494720.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col"></div>
+            </div>
+            <div class="button-row row">
+              <div class="col-sm-6 offset-sm-5">
+                <button class="btn btn-danger btn-lg" data-bs-toggle="modal" data-bs-target="#buttonModal">Get Cool Stuff!!</button>
+              </div>
+            </div>
+          </section>
+          <section class="popUp">
+            <!-- Modal -->
+            <div class="modal fade" id="buttonModal" tabindex="-1" aria-labelledby="buttonModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modalUpdate modal-header">
+                    <h5 class="modal-title" id="buttonModalLabel">Get Exclusive Content</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="img-popUp img-fluid">
+                            <img src="static/images/pexels-oliver-sjöström-1650730.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="mb-3 mt-3">
+                            <label for="exampleFormControlInput1" class="form-label">What is your name?</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Where should be send your Cool content?</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modalUpdate modal-footer">
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="picture-section">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-4">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="img-fluid img-holder-section-4">
+                          <img src="static/images/pexels-nataliya-vaitkevich-4944683.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="button-holder-section-4">
+                          <button class="btn btn-danger button-section-picture" data-bs-toggle="modal" data-bs-target="#iframeModal" data-iframe-src="https://www.youtube.com/embed/W7h-Yho8EB0">See Full Clip</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-4">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="img-fluid img-holder-section-4">
+                          <img src="static/images/pexels-wendy-wei-2959611.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="button-holder-section-4">
+                          <button class="btn btn-danger button-section-picture" data-bs-toggle="modal" data-bs-target="#iframeModal" data-iframe-src="https://www.youtube.com/embed/i9yCe6ibhzU">See Full Clip</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-4">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="img-fluid img-holder-section-4">
+                          <img src="static/images/pexels-kampus-production-6299955.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="button-holder-section-4">
+                          <button class="btn btn-danger  button-section-picture" data-bs-toggle="modal" data-bs-target="#iframeModal"data-iframe-src="https://www.youtube.com/embed/pn7SFWpXURk">See Full Clip</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="iframe-section">
+            <!-- iframe section -->
+            <div class="modal-position modal fade" id="iframeModal" tabindex="-1" aria-labelledby="iframeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered ">
+                <div class=" mt-5 modal-content modal-size">
+                  <div class="modal-content-submade modal-body">
+                    <button type="button" class="btn-close button-iframe" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="iframe-wrapper">
+                      <iframe  id="iframeTage" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <footer class="footer">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="img-fluid img-footer-wrapper">
+                      <img src="static/images/footer-pic.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-10 offset-md-1">
+                        <div class="socialMediaIconWrapper">
+                          <i class="fab fa-youtube"></i>
+                          <i class="fab fa-instagram"></i>
+                          <i class="fab fa-twitter"></i>
+                          <i class="fab fa-pinterest"></i>
+                          <i class="fab fa-facebook"></i>
+                        </div>
+                      </div>
+                      <div class="col"></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12 col-md-10 offset-md-2 copyRight-wrapper">
+                        <p class="copyRight">CopyRight &copy 2021</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col"></div>
+                </div>
+              </div>
+            </div>
+          </footer>
+          
+
+
+
+          
+          
+    </div>
+
+    <script src="static/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
